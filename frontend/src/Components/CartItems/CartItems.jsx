@@ -28,6 +28,7 @@ const CartItems = () => {
                <p>{e.new_price*CartItems[e.id]}</p>
                <img src={remove_icon} onClick={()=>removeFromCart(e.id)} alt="" />
             </div>
+             <hr />
          </div>
           }
         })}
@@ -35,4 +36,4 @@ const CartItems = () => {
   )
 }
 
-export default CartItems
+export default CartItems;
