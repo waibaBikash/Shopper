@@ -12,7 +12,7 @@ const Product = () => {
   return (
     <div>
      <Breadcrum product={product} />
-     <ProductDisplay />
+     <ProductDisplay product={product} />
     </div>
   )
 }
