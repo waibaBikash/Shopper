@@ -25,8 +25,8 @@ const CartItems = () => {
                <p>{e.name}</p>
                <p>${e.new_price}</p>
                <button className='cartitem-quantity'>{CartItems[e.id]}</button>
-               <p>{e.new_price*CartItems[e.id]}</p>
-               <img src={remove_icon} onClick={()=>removeFromCart(e.id)} alt="" />
+               <p>${e.new_price*CartItems[e.id]}</p>
+               <img className='cartitms-remove-icon' src={remove_icon} onClick={()=>removeFromCart(e.id)} alt="" />
             </div>
              <hr />
          </div>
