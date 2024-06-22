@@ -15,5 +15,4 @@ const DescriptionBox = () => {
     </div>
   )
 }
-
 export default DescriptionBox;
