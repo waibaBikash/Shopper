@@ -15,5 +15,4 @@ const RelatedProducts = () => {
     </div>
   )
 }
-
-export default RelatedProducts
+export default RelatedProducts;
