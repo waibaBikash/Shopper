@@ -6,7 +6,6 @@ import NewCollections from '../Components/NewCollections/Newcollections';
 import NewsLetter from '../Components/NewsLetter/NewsLetter';
 
 
-
 const Shop = () => {
   return (
     <div>
